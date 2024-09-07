@@ -2,8 +2,11 @@
 A script to scan apk files for the debuggable flag and order them by their shared uid if there is
 
 How to use this script:
+
 1 install apktool
+
 2 install aapt
+
 3 you can use the script, but how does it work, it has three modes:
 
 1. ./script folder_with_apks [enter]
