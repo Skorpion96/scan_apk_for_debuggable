@@ -212,7 +212,7 @@ for file in "$directory"/*; do
                 fi
             fi
 
-     s
+     
             write_output "APK: $(strip_directory "$file")"
             write_output "Debuggable: $debuggable_status"
             
