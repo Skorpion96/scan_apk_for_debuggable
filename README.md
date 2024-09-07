@@ -3,11 +3,11 @@ A script to scan apk files for the debuggable flag and order them by their share
 
 How to use this script:
 
-1 install apktool
+1 Install apktool
 
-2 install aapt
+2 Install aapt
 
-3 you can use the script, but how does it work, it has three modes:
+3 You can use the script, but how does it work? It has three modes:
 
 1. ./script folder_with_apks [enter]
 
