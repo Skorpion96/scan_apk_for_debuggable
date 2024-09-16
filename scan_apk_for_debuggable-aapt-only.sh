@@ -161,6 +161,10 @@ fi
 print_summary() {
     echo ""
     echo "===== Scan Summary ====="
+  if [ ${#debuggable_apps[@]} -eq 0 ]; then
+        echo "No debuggable apps found."
+        return
+    fi
     if [ ${#shared_uid_map[@]} -gt 0 ]; then
         for uid in "${!shared_uid_map[@]}"; do
             echo "Shared UID: $uid"
